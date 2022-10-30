@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1530px;
+  width: 375px;
+  background: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-bottom-mobile.svg'), rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  background-position: top center, center bottom;
+}
