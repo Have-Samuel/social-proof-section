@@ -7,7 +7,6 @@
 }
 
 body {
-  height: 1530px;
   width: 375px;
   margin: 0 auto;
   background: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-bottom-mobile.svg'), rgba(255, 255, 255, 1);
@@ -17,7 +16,7 @@ body {
 
 .content__stars-words h1 {
   width: 327px;
-  margin: 0 auto;
+  margin: 1rem auto;
   font-family: 'League Spartan', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -38,7 +37,7 @@ body {
   letter-spacing: -0.63px;
   text-align: center;
   color: rgba(146, 123, 145, 1);
-  padding: 0 0 3.06rem 1rem;
+  padding: 0 0 1rem 1rem;
 }
 
 .stars {
@@ -99,7 +98,6 @@ body {
   border-radius: 8px;
   background: rgba(81, 32, 81, 1);
   margin: 1rem 1.5rem;
-  /* position: relative; */
 }
 
 .image_name {
@@ -173,5 +171,13 @@ body {
   margin: 0 auto;
 }
 
-
-
+@media (min-width: 1200px) {
+  body {
+    /* height: 800px; */
+    width: 1200px;
+    background: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg'), rgba(255, 255, 255, 1);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* background-size: 50% 100% contain, cover; */
+  }
+}
