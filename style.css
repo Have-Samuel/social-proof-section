@@ -173,7 +173,6 @@ body {
 
 @media (min-width: 1200px) {
   body {
-    height: 740px;
     width: 1200px;
     background: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg'), rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
@@ -182,7 +181,7 @@ body {
 
   .content__stars {
     display: flex;
-    gap: 8.8rem;
+    gap: 2.8rem;
     margin-left: 1.6rem;
     margin-top: 3.5rem;
   }
@@ -198,7 +197,7 @@ body {
   .content__stars-words h1 {
     text-align: left;
     margin-bottom: 0;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 
   .content__stars-words p {
