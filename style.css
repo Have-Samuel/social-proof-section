@@ -173,7 +173,6 @@ body {
 
 @media (min-width: 1200px) {
   body {
-    /* height: 750px; */
     width: 1200px;
     background: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg'), rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
@@ -181,7 +180,6 @@ body {
   }
 
   .content__stars {
-    /* width: 69rem; */
     display: flex;
     gap: 8.8rem;
     margin-left: 1.6rem;
@@ -197,16 +195,13 @@ body {
   }
 
   .content__stars-words h1 {
-    /* width: 325px; */
     text-align: left;
     margin-bottom: 0;
     margin-left: 1rem;
   }
 
   .content__stars-words p {
-    /* width: 345px; */
     text-align: left;
-    /* margin-left: 0; */
   }
 
   .stars {
@@ -244,15 +239,12 @@ body {
   }
 
   .personnal__content {
-    /* width: 69rem; */
-    /* height: 266px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    /* margin-left: 1rem; */
   }
 
   .adjust-1 {
