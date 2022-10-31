@@ -178,6 +178,32 @@ body {
     background: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg'), rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    /* background-size: 50% 100% contain, cover; */
+  }
+
+  .content__stars {
+    width: 69rem;
+    display: flex;
+    gap: 7.8rem;
+    margin-left: 1.6rem;
+    margin-top: 3.5rem;
+  }
+
+  .content__stars-words {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .content__stars-words h1 {
+    /* width: 325px; */
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 1rem;
+  }
+
+  .content__stars-words p {
+    /* width: 345px; */
+    text-align: left;
+    margin-left: 0;
   }
 }
