@@ -187,10 +187,6 @@ body {
   }
 
   .content__stars-words {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-left: 1.5rem;
   }
 
@@ -252,7 +248,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 2rem;
   }
 
   .personnal__content-parts {
