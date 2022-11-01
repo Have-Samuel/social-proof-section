@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/social-proof-section)
-- [Live Link]()
+- [Live Link](https://clever-social-proof.netlify.app/)
 
 ## My process
 
