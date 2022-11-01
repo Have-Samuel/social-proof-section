@@ -94,10 +94,11 @@ body {
 
 .personnal__content-parts {
   height: 248px;
-  width: 327px;
-  border-radius: 8px;
-  background: rgba(81, 32, 81, 1);
   margin: 1rem 1.5rem;
+  margin: 1rem auto;
+  background: rgba(81, 32, 81, 1);
+  border-radius: 8px;
+  width: 327px;
 }
 
 .image_name {
@@ -181,9 +182,8 @@ body {
 
   .content__stars {
     display: flex;
-    gap: 6.9rem;
-    margin-left: 1.6rem;
-    margin-top: 3.5rem;
+    margin-top: 5.5rem;
+    gap: 6rem;
   }
 
   .content__stars-words {
@@ -191,22 +191,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    margin-left: 1.5rem;
   }
 
   .content__stars-words h1 {
     text-align: left;
-    margin-bottom: 0;
-    margin-left: 1.5rem;
+    padding: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 445px;
   }
 
   .content__stars-words p {
     text-align: left;
+    padding: 0;
+    width: 415px;
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 
   .stars {
-    margin-top: 5rem;
-    margin-left: 2.5rem;
+    padding: 0;
   }
 
   .stars-units {
@@ -228,6 +234,7 @@ body {
 
   .stars-units .para-1 {
     padding: 1.2rem 1rem 1rem 8rem;
+    margin-top: 1rem;
   }
 
   .stars-units .para-2 {
@@ -243,8 +250,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .personnal__content-parts {
+    height: 234px;
+    width: 350px;
+    margin: 0 1.5rem;
   }
 
   .adjust-1 {
