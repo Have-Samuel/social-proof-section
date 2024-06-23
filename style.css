@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 375px;
+  margin: 0 auto;
+  background: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-bottom-mobile.svg'), rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  background-position: top center, bottom center;
+}
+
+.content__stars-words h1 {
+  width: 327px;
+  margin: 1rem auto;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1.4px;
+  text-align: center;
+  color: rgba(81, 32, 81, 1);
+  padding: 4.2rem 0 1.06rem 0;
+}
+
+.content__stars-words p {
+  width: 327px;
+  margin: 0 auto;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -0.63px;
+  text-align: center;
+  color: rgba(146, 123, 145, 1);
+  padding: 0 0 1rem 1rem;
+}
+
+.stars {
+  padding: 0 1.5rem;
+}
+
+.stars-units {
+  width: 327px;
+  border-radius: 8px;
+  background: rgba(247, 242, 247, 1);
+  position: relative;
+  margin-top: 1rem;
+}
+
+.stars-item {
+  background: url('./images/icon-star.svg');
+  background-repeat: repeat;
+  height: 15.5px;
+  width: 85px;
+  position: absolute;
+  left: 7rem;
+  top: 1rem;
+}
+
+.stars-units .para-1 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.stars-units .para-2 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 3rem 0.8rem 1rem 0.8rem;
+}
+
+.stars-units .para-3 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.personnal__content-parts {
+  height: 248px;
+  margin: 1rem 1.5rem;
+  margin: 1rem auto;
+  background: rgba(81, 32, 81, 1);
+  border-radius: 8px;
+  width: 327px;
+}
+
+.image_name {
+  display: flex;
+  margin: 0 1rem 1.4rem 2rem;
+  padding-top: 2.5rem;
+  gap: 1.4rem;
+}
+
+.image-1 {
+  background: url('./images/image-colton.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.image-2 {
+  background: url('./images/image-irene.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.image-3 {
+  background: url('./images/image-anne.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.words {
+  gap: 0.95rem;
+  margin-top: 0.4rem;
+}
+
+.words h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.words span {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(238, 105, 164, 1);
+}
+
+.personnal__content-parts p {
+  width: 263px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 1200px;
+    background: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg'), rgba(255, 255, 255, 1);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .content__stars {
+    display: flex;
+    margin-top: 7rem;
+    gap: 6rem;
+  }
+
+  .content__stars-words {
+    margin-left: 1.5rem;
+  }
+
+  .content__stars-words h1 {
+    text-align: left;
+    padding: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 445px;
+  }
+
+  .content__stars-words p {
+    text-align: left;
+    padding: 0;
+    width: 415px;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .stars {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 1rem;
+  }
+
+  .stars-units {
+    height: 56px;
+    width: 445px;
+  }
+
+  .extension-1 {
+    align-self: center;
+  }
+
+  .extension-2 {
+    align-self: end;
+  }
+
+  .stars-item {
+    left: 4rem;
+  }
+
+  .stars-units .para-1 {
+    padding: 1.2rem 1rem 1rem 8rem;
+    margin-top: 1rem;
+  }
+
+  .stars-units .para-2 {
+    padding: 1.2rem 1rem 1rem 8rem;
+  }
+
+  .stars-units .para-3 {
+    padding: 1.2rem 1rem 1rem 8rem;
+  }
+
+  .personnal__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .personnal__content-parts {
+    width: 350px;
+  }
+
+  .adjust-1 {
+    margin-top: 3rem;
+  }
+
+  .adjust-2 {
+    margin-top: 5rem;
+  }
+}
