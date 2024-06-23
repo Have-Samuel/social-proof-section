@@ -189,6 +189,7 @@ body {
 
   .container {
     width: 100%;
+    border: none;
   }
 
   .content__stars {
