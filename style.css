@@ -8,7 +8,7 @@
 
 body {
   width: 375px;
-  margin: 0 auto;
+  margin: 1rem auto;
   background: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-bottom-mobile.svg'), rgba(255, 255, 255, 1);
   background-repeat: no-repeat;
   background-position: top center, bottom center;
@@ -16,6 +16,7 @@ body {
 
 .container {
   border: 1px solid grey;
+  border-radius: 5px;
 }
 
 .content__stars-words h1 {
