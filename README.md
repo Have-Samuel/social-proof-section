@@ -5,11 +5,11 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Author](#author)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -63,7 +63,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to Frontend Mentor 🎉
-- 👋 Thumbs Up to [@Trekab](https://github.com/trekab?tab=overview&from=2020-12-01&to=2020-12-31)
+- 👋 Thumbs Up to [@Trekab](https://github.com/trekab)
 - etc
 
 ## 📝 License
